@@ -38,9 +38,13 @@
   - 暂存区：Index/Stage，提交代码，解决冲突的中转站
   - 本地仓库：Repository，暂存区的文件通过commit命令，变化纳入到本地仓库，每次commit都会生成一个hash值，作为commit id, commit id标识本次提交
   - 远程仓库：Remote。本地仓库的文件通过push命令，将commit更新到远程仓库
+
+  ![git](/Users/free/Desktop/GitPlay/image/git.png)
+
 - branch:
   - 使用分支意味着你可以把你的工作从开发主线上分离开来，以免影响开发主线
   - 分支间可进行切换、merge
+  
 - 常用操作：
   - add
   - commit
