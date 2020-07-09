@@ -31,3 +31,18 @@
   - GridLayoutManager：网格布局
   - StaggeredGridLayoutManager：流式布局,例如瀑布流效果
 
+### 二、git
+
+- 四个区：
+  - 工作区：workSpace 工作区的文件需要执行add命令，加入到缓存区，才可以纳入到版本控制
+  - 暂存区：Index/Stage，提交代码，解决冲突的中转站
+  - 本地仓库：Repository，暂存区的文件通过commit命令，变化纳入到本地仓库，每次commit都会生成一个hash值，作为commit id, commit id标识本次提交
+  - 远程仓库：Remote。本地仓库的文件通过push命令，将commit更新到远程仓库
+- branch:
+  - 使用分支意味着你可以把你的工作从开发主线上分离开来，以免影响开发主线
+  - 分支间可进行切换、merge
+- 常用操作：
+  - add
+  - commit
+  - pull: pull等于fetch+merge，从远程仓库对应分支拉取变动后和本地仓库进行合并。
+  - push：把本地仓库的commit推送到远程仓库，需要特别注意的是：**先拉后推，否则远程仓库会拒绝你的push请求**
